@@ -3,4 +3,3 @@ class AddRememberDigestToUsers < ActiveRecord::Migration
     add_column :users, :remember_digest, :string
   end
 end
-rak
